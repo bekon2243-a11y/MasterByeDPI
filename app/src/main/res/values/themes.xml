@@ -1,0 +1,39 @@
+<resources>
+    <!-- Palette inspired by Google Intra (dark UI + indigo accent) -->
+    <style name="Theme.MasterDPI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/intra_background</item>
+        <item name="colorPrimaryVariant">@color/intra_surface</item>
+        <item name="colorOnPrimary">@color/intra_on_dark</item>
+
+        <item name="colorSecondary">@color/intra_accent</item>
+        <item name="colorSecondaryVariant">@color/intra_accent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <item name="android:colorBackground">@color/intra_background</item>
+        <item name="android:statusBarColor">@color/intra_background</item>
+        <item name="android:navigationBarColor">@color/intra_background</item>
+
+        <item name="colorSurface">@color/intra_surface</item>
+        <item name="colorOnSurface">@color/intra_on_dark</item>
+
+        <item name="android:textColorPrimary">@color/intra_on_dark</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+
+        <item name="materialCardViewStyle">@style/SmallShadowCard</item>
+    </style>
+
+    <style name="SmallShadowCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">1dp</item>
+    </style>
+
+    <style name="CircleButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">60dp</item>
+        <item name="android:textSize">0sp</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="iconTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <!-- -->
+    </style>
+</resources>

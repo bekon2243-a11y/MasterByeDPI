@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icon_color">#0B4680</color>
+    <color name="green_active">#4CAF50</color>
+    <!-- Intra-inspired -->
+    <color name="intra_background">#202124</color>
+    <color name="intra_surface">#2D2D2D</color>
+    <color name="intra_accent">#536DFE</color>
+    <color name="intra_on_dark">#E8EAED</color>
+</resources>
